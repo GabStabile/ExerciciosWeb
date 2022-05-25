@@ -1,0 +1,81 @@
+<!---Exercício 09 do Curso em vídeo: Lista mistas e de definição-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1"> <!--Listas Ordanadas, podendo personalizar como será os tópicos com <ol type="" start"-->
+        <li>Acordar</li> <!--li é a lista dos Itens de um elemento HTML-->
+        <li>Ligar a o Luiz</li>
+        <li>Tomar café</li> 
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul> <!--Listas não ordenadas, apenas as bolinhas, podendo ser personalizadas-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Minhas linguagens favoritas (juntando listas versão)</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bross</li>
+            <ul type="circle">
+                <li>Mario Bross 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definição</h2> <!--Como se fosse um dicionário, definindo as palavras-->
+    <dl> <!--Definition list, engloba uma lista de pares de termos e descrições-->
+        <dt>HTML</dt> <!--Identifica um termo na lista de definição-->
+            <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd> <!--Fornece detalhes ou uma definição mais completa do termo precedente (definido por <dt>) numa lista de descrição (<dl>)-->
+        <dt>CSS</dt>
+            <dd>Linguagem de marcação para o design de um site.</dd>
+        <dt>JavaScript</dt>
+            <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>

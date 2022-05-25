@@ -1,0 +1,40 @@
+<!---Exercício 10 do Curso em vídeo: Links em HTML5 | Links internos | Links para efetuar download-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Utilizando links externos</h1>
+    <hr>
+    <p>Você pode acessar o meu <a href="https://github.com/GabStabile" target="_blank" rel="external">
+        repositório público no GitHub</a>.</p> 
+        <!--O atributo da tag a, o href="" tem como objetivo, redirecionar o usuário a outro documento ou recurso.
+        Já o target="_blank" gera um comando para o seu navegador abrir uma nova guia ou janela quando o usuário clica nesse link.
+        O real="external" indica que o doc referenciado não é parte do mesmo site do doc que o referencia.-->
+    <p>Você também pode acessar o meu 
+        <a href="https://www.linkedin.com/in/gabriel-stabile" target="_blank" real="external">
+            perfil privado no LinkedIn</a>.</p>
+    <br>
+
+    <h1>Usando links internos</h1>
+    <p><b>Vai fazer a relação com outra page dentro do nosso servidor, que diz respeito a nossa page.</b></p>
+        <hr>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="page2.html" real="next">segunda page</a>.</p>
+    <br>
+    <h2>Página de notícias</h2>
+    <hr>
+        <p>Você também pode acessar a minha terceira page:</p>
+        <p> <a href="notícias/page3.html" real="next" target=" ">Clicando aqui</a></p>
+    <br>
+
+    <h1>Link para download</h1>
+    <hr>
+        <li><a href="livro/10 - Ligações em toda parte.pdf" download="10 - Ligações em toda parte.pdf" type="application/pdf">Baixar o livro em PDF</a>.</li>
+        <li><a href="livro/10 - Ligações em toda parte.pdf" download="10 - Ligações em toda parte.pdf" type="application/zip">Livro compactado em ZIP</a>.</li>
+</body>
+</html>

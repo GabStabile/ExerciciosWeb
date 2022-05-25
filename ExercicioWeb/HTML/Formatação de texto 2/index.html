@@ -1,0 +1,35 @@
+<!---Exercício do Curso em vídeo: Citações e Códigos-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatação</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+        <p>O comando <b><code>document.getElementById('teste')</code></b> é escrito em linguagem JavaScript.</p>
+    <pre> <!--Pré formatação-->
+        <code>
+            num = int(input('Digite um número'))
+            if num % 2 == 0:
+                print(f'O número {num} é PAR')
+            else:
+                print(f'O número {num} é ÍMPAR)
+            print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações simles (sem quebras)</h2>
+        <p>Como diria o pai de um amigo: <q><b>o computador é um burro muito rápido.</b></q></p> <!--tag <q> é a formatação de citação.-->
+    <h2>Citações completas</h2>
+        <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+        <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y"> <!--blockquote é um elemento de citações longas, podendo associar com links com 'Cite=""'-->
+            A diferença entre elementos inline e um bloco de texto é impotante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+        </blockquote>
+    <h2>Abreviações</h2>
+        Estou estudando <abbr title="HyperText Markup">HTML</abbr> e <abbr title="Cascading Style">CSS</abbr>. Estou amando!</p> <!--Abbr tem como objtv de mostrar a palavra po extensa-->     
+</body>
+</html>

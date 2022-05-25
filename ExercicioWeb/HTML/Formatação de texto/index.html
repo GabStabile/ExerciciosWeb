@@ -1,0 +1,40 @@
+<!---Exercício 08 do Curso em vídeo: Negrito e Itálico do jeito certo e Formatação adicionais em HTML-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de texto</title>
+    <style>
+        mark {
+            background-color: blue;
+        }
+    </style> <!--Neste caso, utilizamos um seletor para a tag "mark", inserindo um style padrão. Só é aplicado as tags que não foram inseridas style.-->
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h3>Negrito &lt;b&gt;</h3>
+        <p>Nesta frase, temos um <b>termos em negrito</b> usando a <b>tag B (não semântica).</b></p>
+    <h3>Negito &lt;strong&gt;</h3>
+        <p>Nesta frase, tenho um <strong>termo em destaque usando a tag STRONG (semântica).</strong></p>
+    <h3>Itálico / Ênfase</h3>
+        <p>Nesta frase, temos um <i>termo em itálico</i> usando a <b>tag I (não semântica).</b></p>
+        <p>Nesta frase, temos um <EM>termo em ênfase</EM> usando a <b>tag em EM (semântica).</b></p>
+    <h3>Texto marcador</h3>
+        <p>Podemos criar também um <mark style="background-color:lime;">texto marcado</mark> utilizando a <mark>tag MARK.</mark></p> <!--style é CSS-->
+    <h3>Texto grande e pequeno</h3>
+        <p>Estamos criando um <big>texto grende</big> e um <small>texto pequeno</small>.</p>
+    <h3>Texto deletado</h3>
+        <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+    <h3>Texto inserido</h3>
+        <p>Podemos marcar <ins>um texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois.</p>
+        <p>Existe também o <u>sublinhado</u> com a <b>tag U (não semântica)</b>.</p>
+    <h3>Texto sobrescrito</h3>
+        <p>Para inserir coisas do tipo x20+3</p>
+    <h3>Texto subscrito</h3>
+        <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+    </body>
+
+</html>
