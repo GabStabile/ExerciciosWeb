@@ -7,7 +7,7 @@
   Clique para ser redirecionado aos exercícios: 
 </h3>
 <div>
-    <a href="https://github.com/GabStabile/ExerciciosWeb/tree/main/ExerciciosWeb/HTML"> <img align="center" title="HTML5" alt="Logo HTML" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"> </a>
-    <a href="https://github.com/GabStabile/ExerciciosLogica/tree/main/Exercicios/Python"> <img align="center" title="CSS3" alt="Logo CSS" margin-left="10" height="47" width="47" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"> </a>
+    <a href="https://github.com/GabStabile/ExerciciosWeb/tree/main/ExerciciosWeb"> <img align="center" title="HTML5" alt="Logo HTML" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"> </a>
+    <a href="https://github.com/GabStabile/ExerciciosWeb/tree/main/ExerciciosWeb"> <img align="center" title="CSS3" alt="Logo CSS" margin-left="10" height="47" width="47" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"> </a>
 </div>
 
