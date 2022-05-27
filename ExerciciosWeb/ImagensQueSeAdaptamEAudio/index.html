@@ -1,0 +1,36 @@
+<!--
+    Exercício 11 Curso em vídeo: Imagens que se adaptam e Colocando áudio no seu site.
+    Para a as edições das imagens, utilizei o Figma.
+    Para baixar o arquivo, utilizei "Biblioteca de áudio" do Youtube (estilo musical: jazz)
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente o tamanho do seu navegador.</p>
+
+    <picture> <!--Elemento <picture> é um container usado para especificar múltiplos elementos <source> para um elemento específico <img> contido nele.-->
+        <source media="(max-width: 750px)" srcset="Imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/M.png" type="image/png">
+        <img src="Imagens/G.png"  alt="Imagem flexível Grande" >
+    </picture>
+
+    <h2>Reproduzindo áudio</h2>
+        <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+        <!--Tag <audio>: pr reproduzir áudio; 
+            Atributo Controls: navegador inserir controles de áudio (botão play, pause e vol);
+            Atributo Autoplay: Define que o audio começará a ser tocado assim que ele estiver pronto.
+        -->
+        <audio preload="auto" autoplay loop controls>
+            <source src="Mídia/Down With Your Getup - Mini Vandals.mp3">
+        </audio> 
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="Mídia/Down With Your Getup - Mini Vandals.mp3">Clique aqui baixar o arquivo MP3</a>.</p>
+</body>
+</html>

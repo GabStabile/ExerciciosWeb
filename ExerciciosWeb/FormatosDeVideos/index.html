@@ -1,0 +1,30 @@
+<!-- 
+    Exercício 12 Curso em vídeo: Formatos de vídeo para seu site | Vídeos em hospedagem própria | Incorporação de vídeos externos
+    Vamos utilizar para baixar o vídeo: https://www.pexels.com/pt-br/videos/
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente.</h1>
+        <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video width="600" controls loop>  
+        <source src="midia/Bolls-and-smoke.mp4" type="video/mp4"></src>
+    </video>
+        <p><b>Obs:</b> não será em qualquer navegador que produzirá o vídeo MP4.</p>
+        <p> <a href="midia/Bolls-and-smoke.mp4" target="_blank" real="external">Clique aqui para reproduzir o vídeo</a>.</p>
+    
+    <h1>Inserindo vídeos do Youtube</h1>
+    <!--
+        Iframe: representa um contexto de navegação aninhado, efetivamente incorporando outra página HTML para a página atual;
+        Frameborder: este atributo define em pixels, a expessura da borda dos frames. Para que os frames não apresentem uma borda, basta passar como referência o valor "0";
+        Para incorporar: ir no vídeo > compartilhar > incorporar.
+    -->
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/tdi8B0YzxHg" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
