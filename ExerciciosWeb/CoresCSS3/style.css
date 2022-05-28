@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100% */
+}
+
+body {
+    background-image: linear-gradient(to bottom, #F1D8C9, #f2c3a7);
+    background-attachment: fixed;
+}
+
+main {
+    background-color:white;
+    /* Definir bordas arredondadas */
+    border-radius: 10px;
+    /* Sombra: primeiro parâmetro é quanto ele vai andar pr o lado, o segundo param. quanto vai andar pr baixo, terceiro param. é quanto ela vai se espalhar e o último qual a cor e transparência vai ter */ 
+    box-shadow: 5px 5px 15px #866b5bad;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color:rgb(100, 100, 100);
+    text-align: center;
+     /* Sombra para o texto */ 
+    text-shadow: 1px 1px 2px rgb(78, 78, 78);
+}
+
+h2 {
+    color:#125289
+}
+
+p {
+    text-align: justify;
+}

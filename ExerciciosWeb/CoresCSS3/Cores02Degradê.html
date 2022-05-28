@@ -1,0 +1,34 @@
+<!-- 
+    Exercício 16b Curso em vídeo: Como criar degradê com CSS 
+    Utilizamos estilo local.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS3</title>
+    
+    <!-- 
+        Para degradê utiliza-se "background-image: ";
+        linear-gradiente: direção/posição que o gradiente será aplicado na page (liner é o mais popular, comumento utilizado);
+        to right: indica que a primeira cor será aplicada no lado esquerdo em direção ao lado direito. Da esquerda para a direita;
+
+    -->
+    <style>
+        * { /* Configurações globais das CSS - seletor com asteristicos */ 
+            height: 100%;
+        }
+
+        body { /* Utilizei o Adobe Color com regra de harmonia de cores Monocormática */
+            background-image: linear-gradient(to right, #061F7A, #0D3FFA, #2B3C7A);
+            background-attachment: fixed; /* determina se aquela posição da imagem é fixa com o viewport, ou se irá rolar juntamente com o seu bloco */
+        }
+    </style> 
+</head>
+<body>
+    <h1>Textando gradiente</h1>
+</body>
+</html>

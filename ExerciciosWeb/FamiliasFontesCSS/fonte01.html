@@ -1,0 +1,49 @@
+<!-- Exercício 17 Curso em Vídeo: Famílias de fonte com CSS -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body { 
+            /* font-family: são inseridas mais de duas fontes pq nem sempre o dispositivo iutilizado terá a fonte determinada, então se não tiver a primeira, terá a segunda e se não tiver a segunda, terá a terceira. */ 
+            font-family: Arial, Helvetica, sans-serif;
+
+            /* Medidas Abslutas: são medidas absolutas, sendo cm, mm, in (polegadas), px e a pc.
+            Medidas Relativas: 
+                em (tamanho da fonte);
+                ex é raramente utilizada e o propósito é expressar tamanhos relacionados à "altura do x" de uma fonte.
+                rem | vm | % | vh
+                A recomendação usar "em" ou "px", mas lembrando que é pr priorizar o "em"
+                16px geralmente = 1em
+            font-size: 16px; */
+            
+            /* O peso da fonte, sendo as variações: numérica | lighter | normal | bold | bolder
+            font-weight: normal; */
+    
+            /* Usada para definir o estilo da fonte. Ela pode receber o valor normal, italic e oblique.
+            font-style: normal; */
+        } 
+        h1 { /* shorthan font substitui: 
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal; */
+            font: italic bolder 3em 'Arial', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Arial';
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando fontes</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore cumque suscipit animi laudantium. Magni repellat non qui iusto quo id quibusdam eos, exercitationem similique deleniti repellendus doloribus inventore sint architecto?</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consequatur eum voluptatibus! Exercitationem at dolore fuga deleniti ipsam a aliquid qui enim cum, aperiam sed voluptatem sunt, ipsum quasi rerum.</p>
+    <h2>Subtítulo do exercício</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora dolorum voluptas obcaecati aliquam ducimus, sunt distinctio qui dolor quos ex voluptate magnam velit? Sequi deleniti eveniet quidem debitis vel!</p>
+</body>
+</html>
