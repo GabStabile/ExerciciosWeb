@@ -1,0 +1,69 @@
+<!-- 
+    Exercício 20.2 Curso em Vídeo: Pseudo-classes em CSS - Personalizando links
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* NAS CSS's ESSAS SÃO SIMBOLOGIAS/SELETORES PERSONALIZADOS ABORDADOS:
+            # = id
+            . = class
+            : = pseudo-class
+           :: = pseudo-element
+            > = clidren
+        */
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 17px;
+        }
+
+        a {
+            color: rgb(5, 20, 87);
+            text-decoration: none; /* propriedade text-decoration: destina-se a definir um espaçamento horizontal a ser deixado antes do início da primeira linha do texto, ou seja, define a indentação (ou tabulação) da primeira linha do texto*/
+            font-weight: bold;
+        }
+
+        a:visited { /* Depois de visitar o link, os comandos abaixos serão ativados */
+            color: rgb(4, 0, 255);
+        }
+
+        a:active { /* Após clicar encima do link, os comandos abaixos setão executados */
+            color:chartreuse;
+        }
+
+        .principal::before { /* Antes do... */
+            content: '«';
+            text-decoration: none; /* Continuação: já o 'none' faz com que não haja nenhum sublinhamento */
+            font-weight: normal;
+            color: rgb(0, 88, 139);
+        }
+
+        .principal {
+            background-color: rgba(0, 0, 255, 0.425);
+        }
+
+        a.principal::after { /* Depois do... */
+            content: '»'; /* ...link mostrará o que está entre aspas */
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(0, 88, 139);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <p>Clique para ser redicionário:</p>
+    <ul> <!-- Representa uma lista de itens sem ordem rígida -->
+        <li><a href="https://github.com/GabStabile" target="_blank" real="external">Repositório GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/gabriel-stabile/" target="_blank" real="external" class="principal">Meu perfil do linkedin</a></li>
+    </ul>
+</body>
+</html>

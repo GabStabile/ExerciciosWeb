@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face { /* específica uma fonte customizada com a qual exibe o texto (a fonte pode ser carregada de um servidor remoto ou de uma) */
+            font-family: 'Fuego';
+            src: url('Fontes/Snowy\ Season.ttf') format('truetype');
+            font-weight: normal;
+            /* 
+                Tipos de format()
+                - opentype (colocado geralmente quando é 'otf')
+                - truetype (colocado geralmente quando é 'ttf')
+                - embedded-opentype  
+                - truetype-aat (aat: Apple Advenced Typography)
+                - svg
+            */
+            font-weight: normal; /* Específica o peso ou a intensidade da fonte (ex.: negrito) */
+            font-style: normal;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+        }
+
+        h1 {
+            font-family: 'Fuego', Times, serif;
+            font-size: 2em;
+            font-weight: normal;
+        }
+
+        p {
+            font: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, nesciunt. Sequi deleniti amet nisi sunt quae, voluptates mollitia quo, pariatur eius inventore reprehenderit sint ipsam nemo cum? Sed, incidunt quae.</p>
+</body>
+</html>

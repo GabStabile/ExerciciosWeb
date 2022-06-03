@@ -1,0 +1,35 @@
+<!-- 
+    Exercício 20 Curso em Vídeo: Pseudo-classes em CSS 
+    Classses: '.'
+    Pseudo-classes (são relacionadas a um estado de um determiado elemento): ':' 
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover { /* No elemento div, a sub-classe 'hover' permite a criação de diversos efeitos, quando passar o mouse por cima, ele muda sua aparência */
+            background-color: midnightblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    
+</body>
+</html>

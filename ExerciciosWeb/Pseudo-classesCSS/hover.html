@@ -1,0 +1,42 @@
+<!-- 
+    Exercício 20.1 Curso em Vídeo: Pseudo-classes em CSS - Exemplo de hover
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+
+        div:hover { /*Quando passar o mouse ficar encima, exibirá a função */
+            color: rgb(16, 3, 196);
+        }
+
+        div > p { /* O seletor '>' significa que estará dentro da div */
+            display: none; /* Retira o elemento do layout da página. Mas você ainda pode continuar manipulando ele no DOM */
+        }
+
+        div:hover > p {
+            display: block; /* A propriedade display define  se um elemento é tratado como um bloco ou elemento embutido e o layout usado para seus filhos, como layout de fluxo, grade ou flex.  propriedade display define os tipos de exibição internos e externos de um elemento */
+            color:rgb(255, 255, 255);
+            background-color:rgb(44, 0, 204);
+            width: 300; /* Reduzir parágrafo */
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+        <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIGO...</p>
+    </div>
+</body>
+</html>

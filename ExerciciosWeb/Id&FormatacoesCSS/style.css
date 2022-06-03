@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+    Em HTML é id = em CSS é # (só pode um elemento)
+    Em HTML é class = em CSS é . (pode vários elementos)
+    Utilizamos id e classes. Configurei as classes em tópicos/níveis.
+*/
+
+body {
+    background-color: rgb(1, 158, 137);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:rgb(20, 27, 24)
+}
+
+h1#topicoprincipal { /* A '#' gera um id que vai ser implementado (neste caso) no <h1> */
+    background-color:rgb(20, 27, 24);
+    color: rgb(1, 158, 137);
+    text-align: center;
+}
+
+h2 {
+    color:rgb(43, 46, 45);
+}
+
+.basico {
+    color: aliceblue;
+}
+
+.intermediario {
+    color: rgb(20, 78, 3);
+}
+
+.avancado {
+    color: rgb(1, 51, 92);
+    text-shadow: 0em 2px 3px rgba(0, 0, 0, 0.288);
+}
+
+.destaque {
+    background-color: rgba(10, 68, 116, 0.514);
+}
